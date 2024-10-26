@@ -1,0 +1,267 @@
+*{
+    padding: 0;
+    margin : 0;
+}
+nav {
+    display : flex;
+    align-items: center;
+    padding-left : 40px;
+    padding-right: 40px;
+    border : solid 1px black;
+}
+
+.leftNav{
+    display: flex;
+    padding-left : 10px;
+    flex-grow: 1;
+    align-items: center;
+    font-family : "Anton" , sans-serif;
+
+}
+
+.leftNav *{
+    font-size: 30px;
+}
+
+.rightNav{
+    display: flex;
+    justify-content: flex-end;
+}
+
+
+
+.rightNav li{
+    display: inline-block;
+}
+
+.rightNav *{
+    padding-left : 10px;
+    font-weight: 800;
+}
+
+ul{
+    padding: 0;
+    margin : 0;
+}
+
+li {
+    list-style-type: none;
+
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+button{
+    padding : 5px;
+}
+
+.mid{
+    padding-top: 80px;
+    display: flex;
+    height : 100%;
+    margin-left : 80px;
+    margin-bottom: 130px;
+}
+
+.tagLine{
+    margin-right : 300px;
+}
+
+.mainImages{
+    padding-left : 250px;
+    justify-content: flex-end;
+}
+
+.carousel-img {
+    width: auto; /* Ensures the image fills the carousel width */
+    height: auto; /* Allows the height to adjust according to the width */
+    max-height : 700px;
+    max-width : 400px; /* Enforces a maximum height for the 16:9 ratio */
+    object-fit: cover; /* Ensures that the image maintains its aspect ratio without being distorted */
+}
+
+
+.tagLine h1{
+    font-size: 80px;
+    font-family : "Anton" , sans-serif;
+}
+
+.tagLine p{
+    padding-top : 10px;
+    width : 500px;
+    font-size: 18px;
+    font-family: "Caveat", cursive;
+
+}
+/*
+body{
+    background: #fffc00;  /* fallback for old browsers 
+    background: -webkit-linear-gradient(to left, #ffffff, #fcf94c);   Chrome 10-25, Safari 5.1-6 
+    background: linear-gradient(to left, #ffffff, #fcf93e); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ 
+}
+*/
+
+body{
+    background-color: black;
+    color : white;
+}
+.anton-regular {
+    font-family: "Anton", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+button a {
+    color : white;
+}
+button {
+    background-color: white;
+}
+
+a li{
+    color: white;
+}
+
+nav{
+    border-radius: 15px;
+    margin : 15px;
+    margin-top : 20px;
+    box-shadow: 1px 1px 15px 9px rgb(224, 224, 0) ;
+}
+
+.bottom div img{
+    box-shadow: 1px 1px 15px 3px rgb(108, 206, 255) ;
+
+}
+
+
+.caveat-uniquifier {
+  font-family: "Caveat", cursive;
+  font-optical-sizing: auto;
+  font-weight: 100;
+  font-style: normal;
+}
+
+
+
+
+
+.bottom {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    
+    padding-left: 130px;
+    padding-right: 100px
+}
+
+.bottom img {
+    height: 300px;
+    width: 200px;
+    object-fit: cover;
+}
+
+.midA{
+    text-align: center;
+    font-family : "Anton" , sans-serif;
+    margin-bottom: 50px;
+}
+
+.midA h1{
+    font-size: 60px;
+}
+
+
+
+.bottom > div > div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.bottom div img {
+    height: 300px;
+    width: 200px;
+    object-fit: cover;
+    display: block; 
+    box-shadow: 1px 1px 15px 4px rgb(126, 255, 255);
+    margin-bottom : 8px;
+    transition: transform .2s; 
+}
+
+.bottom div img:hover{
+    box-shadow: 1px 1px 15px 5px rgb(255, 255, 0);
+    transform: scale(1.1);
+}
+
+.bottom h3 {
+    margin-top: 10px; 
+    width: 100%; 
+    text-align: center;
+    font-family : "Anton" , sans-serif;
+
+}
+
+
+#customerReview {
+    margin-top : 100px;
+    margin-bottom: 50px;
+    text-align: center;
+    font-family : "Anton" , sans-serif;
+}
+
+#customerReview h1{
+    font-size: 60px;
+}
+
+.bottom2 .bottom img{
+    margin-bottom : 30px;
+}
+
+.bottom2 .bottom img{
+    box-shadow: 1px 1px 15px 4px rgb(255, 167, 229);
+}
+
+
+.bottom2 .bottom img:hover{
+    box-shadow: 1px 1px 15px 8px rgb(210, 0, 168);
+
+}
+
+
+
+.contactUs img{
+    height: 90%;
+    width : 80%;
+    object-fit : cover;
+}
+
+.contact{
+    margin-top: 100px;
+    margin-bottom: 50px;
+    text-align: center;
+    font-size: 60px;
+}
+
+.contact h1{
+    font-size: 60px;
+    font-family : "Anton" , sans-serif;
+}
+
+
+.contactUs{
+    display: flex;
+    justify-content: center;
+}
+
+.contactUs *{
+    padding-left : 30px;
+}
+
+.contactUs img:hover{
+    border: solid 2px white
+}
